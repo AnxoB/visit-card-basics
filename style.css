@@ -1,25 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@200&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@200;600&family=Roboto&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
 article{
     text-align: center;
     background-color: mediumorchid;
-    margin-right: 25%;
-    margin-left: 25%;
+    width: 300px;
 }
 img{
-    width: 250px;
-    padding: 50px;
+    width: 200px;
     border-radius: 5%;
     border-style: solid;
     background-color: white;
+    border-color: greenyellow;
 }
 p{
     font-family: Inter;
+    color: greenyellow;
+    font-weight: bold;
 }
 h1{
     font-family: Agbalumo;
+    color: greenyellow;
 }
-button{
-    border-radius: 15%;
+footer button:nth-child(1){
+    border-radius: 5px;
+    font-family: Inter;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid white;
+    border-color: greenyellow;
+}
+footer button:nth-child(1):hover{
+    border-radius: 5px;
+    font-family: Inter;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid white;
+    border-color: white;
+    background-color: greenyellow;
+}
+footer button:nth-child(2){
+    border-radius: 5px;
+    font-family: Inter;
+    font-weight: bold;
+    padding: 10px;
+    background-color: greenyellow;
+    border: 2px solid white;
+}
+footer button:nth-child(2):hover{
+    border-radius: 5px;
+    font-family: Inter;
+    font-weight: bold;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid greenyellow;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
 }
 
